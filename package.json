@@ -1,0 +1,24 @@
+{
+  "name": "cvitae",
+  "version": "1.0.0",
+  "description": "Proyecto de curriculum vitae desarrollado en React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gianverab/cvitae.git"
+  },
+  "keywords": [],
+  "author": "Giancarlo Vera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gianverab/cvitae/issues"
+  },
+  "homepage": "https://github.com/gianverab/cvitae#readme",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
