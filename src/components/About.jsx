@@ -1,14 +1,33 @@
 import React from 'react';
+import styled from 'styled-components';
 import Social from './Social';
+
+const AboutContainer = styled.div`
+  text-align: center;
+`;
+
+const AboutAvatar = styled.div`
+  padding: 20px 0 0 0;
+`;
+
+const AboutImg = styled.img`
+  border-radius: 100%;
+  width: 160px;
+  height: 160px;
+  border: 2px solid #e91e63;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+`;
 
 const About = ({ avatar, name, profession, bio, address, social }) => (
   <div className="About">
-    <div className="About-container">
-      <div className="About-avatar">
+    <AboutContainer>
+      <AboutAvatar>
         <figure>
-          <img src={avatar} alt={`${name}`} />
+          <AboutImg src={avatar} alt={`${name}`} />
         </figure>
-      </div>
+      </AboutAvatar>
       <div className="About-name">
         <h2>{name}</h2>
       </div>
@@ -24,7 +43,7 @@ const About = ({ avatar, name, profession, bio, address, social }) => (
       <div className="About-social">
         <Social data={social} />
       </div>
-    </div>
+    </AboutContainer>
   </div>
 );
 
