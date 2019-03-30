@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledP = styled.p`
-  font-weight: 400;
+  font-weight: 300;
   margin: 0.5em 0;
   color: #212121;
 `;
